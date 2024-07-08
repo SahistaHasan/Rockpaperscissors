@@ -1,0 +1,107 @@
+#rock{
+    height:100px;
+    width:100px;
+    background-image: url("https://imsammylee.github.io/rock-paper-scissors/rock_image.png");
+    background-size: cover;
+    border-radius: 50%;
+    border:5px solid rgb(169, 255, 129)
+}
+#paper{
+    height:100px;
+    width:100px;
+    background-image:url("https://husseinhewehii.github.io/Rock_Paper_Scissors/paper.png");
+    background-size: cover;
+    border-radius: 50%;
+    border: 5px solid rgb(255, 132, 249)
+}
+#scissor{
+    height: 100px;
+    width:100px;
+   background-image:url("https://imsammylee.github.io/rock-paper-scissors/scissors_image.png") ;
+   background-size: cover;
+   border-radius: 50%;
+   border:5px solid burlywood
+}
+#container{
+    height:300px;
+    width:550px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    
+}
+#box{
+    width:400px;
+    height:300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+}
+#player{
+    margin-top: 50px;
+    height:200px;
+    width:200px;
+    border-radius: 50%;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/011/081/807/original/notebook-sheet-white-blank-page-paper-list-from-notepad-flat-cartoon-icon-vector.jpg");
+    background-size: cover;
+    margin-right:20px;
+}
+#comp{
+    margin-top:50px;
+    height:200px;
+    width:200px;
+    border-radius: 50%;
+    background-image:url("https://static.vecteezy.com/system/resources/previews/011/081/807/original/notebook-sheet-white-blank-page-paper-list-from-notepad-flat-cartoon-icon-vector.jpg") ;
+    background-size: cover;
+    margin-left:20px;
+}
+#bar{
+    width:500px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top:50px;
+}
+#name1{
+    width:150px;
+    height:20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+    background-color: rgb(165, 165, 245);
+    text-align: center;
+    border:5px solid rgb(104, 104, 255);
+    
+}
+#name2{
+    width:150px;
+    height:20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+    background-color: rgb(255, 150, 150);
+    text-align: center;
+    border: 5px solid rgb(247, 104, 104);
+    
+}
+body{
+    background-color: rgb(64, 64, 110);
+}
+#status{
+    height:30px;
+    width:150px;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top:40px;
+    color:rgb(184, 184, 214);
+    font-style: bold;
+}
